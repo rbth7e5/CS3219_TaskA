@@ -1,5 +1,18 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Running in a Docker container
+
+In the project directory, first build the docker image:
+
+`docker build -t cs3219taska .`
+
+Next, run the image:
+
+`docker run -d --name cs3219taska -p 80:80 cs3219taska`
+
+Now, you can access the containerized application at [http://localhost:80](http://localhost:80) 
+to view it in the browser.
+
 ## Available Scripts
 
 In the project directory, you can run:

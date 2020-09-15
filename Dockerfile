@@ -1,7 +1,7 @@
 FROM node:10-alpine as builder
 
 # copy the package.json to install dependencies
-COPY package.json package-lock.json ./
+COPY package.json yarn.lock ./
 
 # Install the dependencies and make the folder
 RUN yarn && mkdir /react-ui && mv ./node_modules ./react-ui
