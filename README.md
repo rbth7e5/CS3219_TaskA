@@ -2,6 +2,12 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Running in a Docker container
 
+First, ensure you have Docker installed by going to [https://docs.docker.com/get-docker/](https://docs.docker.com/get-docker/)
+
+Next, clone the GitHub repository:
+
+`git clone https://github.com/rbth7e5/CS3219_TaskA.git`
+
 In the project directory, first build the docker image:
 
 `docker build -t cs3219taska .`
